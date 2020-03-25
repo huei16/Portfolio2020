@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Guntur:600|Merriweather+Sans|PT+Sans|PT+Sans+Caption&display=swap');
+
+body{font-family: 'Merriweather Sans', sans-serif;}
+.blank{height:10px;}
+.blank{height:5vh; width:100%;}
+.p-blank{height:1em;width:100%;}
+
+
+/* Images */
+.projects{position: absolute; top:5vw}
+.pho-preview{width:30vw;}
+/* .blur:hover{opacity: 0; transition: .8s}
+.blur{transition: .8s} */
+
+@keyframes blur { 0% {opacity:1} 100% {opacity:0}}
+.blur{ animation: blur .6s linear 1 forwards; animation-play-state: paused;}
+.blur:hover{ animation-fill-mode: forwards; animation-play-state: running;}
+
+.stool{position: absolute;left:5vw; top:10vh}
+.hashtag{position: absolute;left:5vw; top:50vh}
+.vase{position: absolute;left:36vw; top:10vh}
+.chop{position: absolute;left:67vw; top:10vh}
+.torii{position: absolute;left:67vw; top:50vh}
+.form{position: absolute;left:67vw; top:82vh}
+.bento{position: absolute;left:5vw; top:90vh}
+.loop{position: absolute;left:67vw; top:122vh}
+.knot{position: absolute;left:36vw; top:98vh}
+.candy{position: absolute;left:5vw; top:135vh}
+
+
+
+
+/* .headerr{position: absolute; width:40px;margin-left: -20px;left:50vw; top:30px;}
+#sec1{height:100vh; overflow: hidden;}
+#canvas-1{width:100%; height:100vh;}
+.intro{text-align: center;
+  width:600px;position: absolute; margin-left: -300px; left:50%; top:13vw; background-color:;
+  font-weight: 700; font-size: 30px; line-height: 55px;
+  cursor:default;} */
